@@ -1,0 +1,42 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.loadingAnimation {
+    width: 100px;
+    height: 100px;
+
+}
+
+.driversContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.driverCard {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-wrap: wrap;
+    border: 1px solid #D69F29;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.driverCardButtonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
